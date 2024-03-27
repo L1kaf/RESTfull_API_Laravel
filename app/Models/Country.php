@@ -9,6 +9,8 @@ class Country extends Model
 {
     protected $table = 'country_lang';
 
+    public $timestamps = false;
+
     protected $fillable = [
         'id',
         'alias',
